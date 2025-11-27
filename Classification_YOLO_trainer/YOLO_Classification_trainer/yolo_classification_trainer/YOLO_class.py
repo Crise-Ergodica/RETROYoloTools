@@ -1,3 +1,28 @@
+"""               
+                                  ██████   █████ ██████████    ███████             
+                                 ▒▒██████ ▒▒███ ▒▒███▒▒▒▒▒█  ███▒▒▒▒▒███           
+                                  ▒███▒███ ▒███  ▒███  █ ▒  ███     ▒▒███          
+                                  ▒███▒▒███▒███  ▒██████   ▒███      ▒███          
+                                  ▒███ ▒▒██████  ▒███▒▒█   ▒███      ▒███          
+                                  ▒███  ▒▒█████  ▒███ ▒   █▒▒███     ███           
+                                  █████  ▒▒█████ ██████████ ▒▒▒███████▒            
+                                 ▒▒▒▒▒    ▒▒▒▒▒ ▒▒▒▒▒▒▒▒▒▒    ▒▒▒▒▒▒▒              
+                                                                                   
+                                                                                   
+                                                                                   
+                              ███                 █████                            
+                             ▒▒▒                 ▒▒███                             
+                             █████ █████ ████  ███████   █████   ██████  ████████  
+                            ▒▒███ ▒▒███ ▒███  ███▒▒███  ███▒▒   ███▒▒███▒▒███▒▒███ 
+                             ▒███  ▒███ ▒███ ▒███ ▒███ ▒▒█████ ▒███ ▒███ ▒███ ▒███ 
+                             ▒███  ▒███ ▒███ ▒███ ▒███  ▒▒▒▒███▒███ ▒███ ▒███ ▒███ 
+                             ▒███  ▒▒████████▒▒████████ ██████ ▒▒██████  ████ █████
+                             ▒███   ▒▒▒▒▒▒▒▒  ▒▒▒▒▒▒▒▒ ▒▒▒▒▒▒   ▒▒▒▒▒▒  ▒▒▒▒ ▒▒▒▒▒ 
+                         ███ ▒███                                                  
+                        ▒▒██████                                                   
+                         ▒▒▒▒▒▒                                                                                                                                                                   
+"""
+
 from ultralytics import YOLO  # Framework Ultralytics YOLO: classe principal de modelos (detecção, cls, seg)
 import shutil                 # Biblioteca padrão: operações de cópia/movimentação de arquivos
 import os                     # Biblioteca padrão: operações com sistema de arquivos e caminhos
@@ -356,3 +381,4 @@ class YOLOClassificationTrainer:
             conf=predict_confidence,
         )
         return results
+
